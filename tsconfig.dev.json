@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "lib": [
+            "ES6",
+            "dom"
+        ],
+        "module": "commonjs",
+        "inlineSourceMap": true,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strict": true,
+        "outDir": "dev",
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "noEmitOnError": true
+    },
+    "include": [
+        "src/**/*",
+        "test/**/*"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "compilerOptions": {
+        "target": "ES2020",
+        "lib": [
+            "ES6",
+            "dom"
+        ],
+        "module": "commonjs",
+        "inlineSourceMap": false,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "strict": true,
+        "outDir": "dist",
+        "noUnusedLocals": false, // Required as tests are not compiled
+        "noUnusedParameters": true,
+        "noEmitOnError": true
+    },
+    "include": [
+        "src/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "test/**/*"
+    ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "webresource_template",
+  "version": "1.0.0",
+  "description": "Template for Power Platform web resources",
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "tsc --project tsconfig.dev.json && nyc mocha --reporter spec dev/test/**/*.js",
+    "build:prod": "tsc --project tsconfig.prod.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kdemanuele/Power-Platform-Web-Resource-TypeScript-template.git"
+  },
+  "keywords": [
+    "d365",
+    "ce",
+    "webresource",
+    "typescript",
+    "template"
+  ],
+  "author": "Karlston D'Emanuele",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kdemanuele/powerplatform-webresource-typescript-template/issues"
+  },
+  "homepage": "https://github.com/kdemanuele/powerplatform-webresource-typescript-template#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.14",
+    "@types/mocha": "^8.2.0",
+    "@types/xrm": "^9.0.33",
+    "chai": "^4.2.0",
+    "mocha": "^8.2.1",
+    "nyc": "^15.1.0",
+    "typescript": "^4.1.3"
+  }
+}
